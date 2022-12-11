@@ -4723,7 +4723,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Saw
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 692389088551236462, guid: f7fe13b8f153ed2478eece5d035c843d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f7fe13b8f153ed2478eece5d035c843d, type: 3}
 --- !u!4 &1692462580 stripped
 Transform:
