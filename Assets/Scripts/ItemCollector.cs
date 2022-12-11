@@ -7,7 +7,7 @@ public class ItemCollector : MonoBehaviour
 {
     private int strawberries = 0;
 
-    [SerializeField] private Text strawberrText;
+    [SerializeField] private Text strawberriesText;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,7 +15,7 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             strawberries++;
-            strawberrText.text = "Strawberries: " + strawberries;
+            strawberriesText.text = "Strawberries: " + strawberries;
         }
     }
 }
